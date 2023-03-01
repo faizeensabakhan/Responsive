@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    /* background-image: url('photographer.jpg'); */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    border: 2px white solid;
+    padding: 20px 40px;
+    position: absolute;
+    
+}
+.cover{
+    width: 100%;
+    filter:brightness(50%);
+}
+.but{
+    /* position: inherit; */
+    display:inline-block;
+    width: auto;
+    background-color: white;
+    
+}
+.b1{
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0px;
+    background-color: white;
+    border-radius: 7px;
+    transition: 0.8s;
+}
+.b1:hover{
+    background-color: rgb(162, 134, 134);
+    cursor: pointer;
+}
+.main-header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    /* padding: 5px; */
+}
+.images-div{
+    width:70% ;
+}
+.image1{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.About{
+background-color: whitesmoke;
+width: 70%;
+color: black;
+text-align: center;
+padding: 10px;
+}
+footer{
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    margin-bottom: 35px;
+    /* height: 800px; */
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+input{
+    background-color: white;
+    height: 45px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    border: 0px;
+    margin: 5px;
+    margin-left: 0px;
+
+}
+input:hover{
+    background-color: bisque;
+}
+.send{
+    margin: 6px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 3px;
+}
+.send:hover{
+    background-color: bisque;
+}
+.powered{
+    margin-top: 25px;
+    height: 100px;
+    margin-left: 5px;
+}
